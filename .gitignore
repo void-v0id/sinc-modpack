@@ -1,5 +1,4 @@
 # Minecraft
-
 coremods/
 crash-reports/
 defaultconfigs/
@@ -21,15 +20,27 @@ texturepacks/
 xaero/
 XaeroWaypoints_*/
 .qmenu_*
-*.json
+
+# Logs e cache
 *.log
 *.dat
 !servers.dat
-*.properties
-options.txt
 mods/.index/
+
+# Configurações do cliente (player-specific)
+options.txt
+*.properties
+!server.properties
+
+# JSON desnecessários
+checkbox_states.json
+emi.json
+patchouli_data.json
+usercache.json
+usernamecache.json
+
+# Config: ignore tudo, mas whitelist o necessário
 config/*
 !config/fancymenu/
 !config/quark-common.*
-!config/drippyloadingscreen
-
+!config/drippyloadingscreen/
