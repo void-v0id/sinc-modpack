@@ -26,6 +26,7 @@ XaeroWaypoints_*/
 *.dat
 !servers.dat
 mods/.index/
+resourcepacks/.index/
 
 # Configurações do cliente (player-specific)
 options.txt
