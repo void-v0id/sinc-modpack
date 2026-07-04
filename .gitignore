@@ -22,4 +22,7 @@ xaero/
 XaeroWaypoints_*/
 .qmenu_*
 *.json
-*.logs
+*.log
+*.dat
+!servers.dat
+*.properties
