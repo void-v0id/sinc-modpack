@@ -28,3 +28,8 @@ XaeroWaypoints_*/
 *.properties
 options.txt
 mods/.index/
+config/*
+!config/fancymenu/
+!config/quark-common.*
+!config/drippyloadingscreen
+
