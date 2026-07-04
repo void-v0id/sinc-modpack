@@ -26,3 +26,4 @@ XaeroWaypoints_*/
 *.dat
 !servers.dat
 *.properties
+options.txt
