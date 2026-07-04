@@ -1,0 +1,18 @@
+filename = 'Iron Chests redesign.zip'
+name = 'Iron Chests redesign'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = 'bf6c94d7e107416a259d0748f138b909abb2a59bac175750de105409ed75839623e3bb7b1a338047e225cf6e119d3d628f60b021efbc3e116d03fa8d45acc66d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AcCMuzrx/versions/vr9udeeI/Iron Chests redesign.zip'
+
+[update.modrinth]
+mod-id = 'AcCMuzrx'
+version = 'vr9udeeI'

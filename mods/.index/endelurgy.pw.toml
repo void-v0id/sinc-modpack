@@ -1,0 +1,18 @@
+filename = 'endelurgy-1.20.1-0.3.0.jar'
+name = 'Endelurgy'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'endelurgy-1.20.1-0.3.0.jar'
+
+[download]
+hash = 'b461064a9402ae284d98b785ec3818190772a7ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8271495
+project-id = 1262008

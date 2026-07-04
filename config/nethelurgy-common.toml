@@ -1,0 +1,17 @@
+
+["Nethelurgy Config"]
+	#Whether Searing can be obtained in survival (default = true)
+	"Enable Searing" = true
+	#Whether Netherite Armor has fire resistance (default = true)
+	"Netherite Armor tweak" = true
+	#Whether Gold Armor has magic resistance (default = false)
+	"Gold Armor tweak" = false
+	#Whether Red Nether Brick blocks added by the mod appear in creative tabs (default = true)
+	"Red Nether Brick Blockset" = true
+	#Whether Nether Brick Fence Gate appears in creative tabs (default = true)
+	"Nether Brick Fence Gate" = true
+	#Whether Cut Tungsten blocks appear in creative tabs (default = true)
+	"Tungsten Blockset" = true
+	#Whether hot blocks like Magma Blocks should burn the player when mined (default = false)
+	"Hot Block Burning" = false
+

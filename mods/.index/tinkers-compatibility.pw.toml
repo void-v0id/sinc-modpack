@@ -1,0 +1,73 @@
+filename = 'tcompat-1.20.1-1.4.4.jar'
+name = "Tinkers' Compatibility"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Tinkers' Compatibility 1.4.4"
+
+[download]
+hash = 'a244ad6541a096b2eed1ee7e1cecfb7830d2b5b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8039177
+project-id = 1201964
+
+[[x-prismlauncher-dependencies]]
+addonId = '852465'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1016302'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659110'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '635042'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '857737'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1436171'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1070751'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1435127'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '255308'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '264231'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '867237'
+type = 'OPTIONAL'
