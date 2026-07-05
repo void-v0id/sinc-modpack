@@ -16,9 +16,10 @@ Este modpack é distribuido de duas maneiras:
 * Archive .zip em formato CurseForge para instalação automática ('curseforge')
 
 ### Arquivos Brutos
-1. Baixe a versão mais recente em [Releases](https://github.com/void-v0id/sinc-modpack/releases)
-2. Descompacte em '.minecraft/' no diretório de sua instância
-3. Execute a instância
+1. Crie uma instância que cumpra os [Requisitos](https://github.com/void-v0id/sinc-modpack#requisitos)
+2. Baixe a versão mais recente em [Releases](https://github.com/void-v0id/sinc-modpack/releases)
+3. Descompacte na pasta '.minecraft/' em sua instância
+4. Execute a instância
 
 ### ZIP CurseForge
 1. Baixe a versão adequada em [Releases](https://github.com/void-v0id/sinc-modpack/releases)
