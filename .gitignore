@@ -23,8 +23,7 @@ XaeroWaypoints_*/
 
 # Logs e cache
 *.log
-*.dat
-!servers.dat
+servers.dat_old
 mods/.index/
 resourcepacks/.index/
 
