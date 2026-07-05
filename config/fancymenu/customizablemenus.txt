@@ -60,12 +60,6 @@ net.minecraftforge.client.gui.ModMismatchDisconnectedScreen {
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
-net.minecraft.client.gui.screens.LevelLoadingScreen {
-}
-
-net.minecraft.client.gui.screens.GenericDirtMessageScreen {
-}
-
 net.minecraft.client.gui.screens.ProgressScreen {
 }
 
@@ -73,5 +67,11 @@ net.minecraft.client.gui.screens.ConnectScreen {
 }
 
 org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
