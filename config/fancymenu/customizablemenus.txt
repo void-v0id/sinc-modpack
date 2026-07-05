@@ -72,3 +72,6 @@ net.minecraft.client.gui.screens.ProgressScreen {
 net.minecraft.client.gui.screens.ConnectScreen {
 }
 
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
