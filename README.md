@@ -183,3 +183,11 @@ Este modpack é distribuido de duas maneiras:
 - [betterfpsdist mod](https://www.curseforge.com/projects/551520) [1\.20\.1\-6\.0]
 - [cataclysm](https://modrinth.com/mod/46KJle7n) [3\.31]
 - [spark](https://www.curseforge.com/projects/361579) [1\.10\.53]
+
+## Créditos
+- **Fundador:** Cauã 'Causelão' Sla
+- **Direção:** 'Causelão'
+- **Arte:** Void e  'Causelão'
+- **Design:** Void
+- **Hosting:** Doge 'Droge'
+- **Scripting:** Void e 'Causelão' (majoritariamente o 'Causelão')
