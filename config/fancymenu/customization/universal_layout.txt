@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1783268868284
+  last_edited_time = 1783381074120
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  universal_layout_blacklist = title_screen;
-  [loading_requirement_container_meta:76fa785a-d68b-4269-bd2c-50d6e4b8b5f5-1783283375569] = [groups:][instances:]
+  universal_layout_blacklist = title_screen;pause_screen;
+  [loading_requirement_container_meta:3bf87cea-ba9e-48f0-b5cb-6bb744c72060-1783381062765] = [groups:][instances:]
 }
 
 menu_background {
