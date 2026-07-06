@@ -78,3 +78,6 @@ net.minecraft.client.gui.screens.LevelLoadingScreen {
 net.minecraft.client.gui.screens.DisconnectedScreen {
 }
 
+net.minecraft.client.gui.screens.achievement.StatsScreen {
+}
+
