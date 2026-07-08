@@ -1,7 +1,16 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:ironfurnaces:upgrade_emerald",
+    "item:ironfurnaces:upgrade_obsidian",
     "item:ironfurnaces:emerald_furnace",
+    "item:ironfurnaces:upgrade_copper",
+    "item:ironfurnaces:upgrade_gold",
+    "item:ironfurnaces:upgrade_iron",
+    "item:ironfurnaces:gold_furnace",
+    "item:ironfurnaces:upgrade_diamond",
+    "item:ironfurnaces:upgrade_crystal",
+    "item:ironfurnaces:diamond_furnace",
     "item:ironfurnaces:crystal_furnace",
     "item:ironfurnaces:obsidian_furnace",
     "item:tconstruct:cobalt_ore",
