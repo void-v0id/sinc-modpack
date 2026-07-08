@@ -133,7 +133,7 @@ Este modpack é distribuido de duas maneiras:
 - [Mystical Agriculture](https://www.curseforge.com/projects/246640) [7\.0\.24]
 - [Nature's Spirit](https://www.curseforge.com/projects/1044992) [2\.2\.3\-1\.20\.1]
 - [Necronomicon](https://www.curseforge.com/projects/586157) [1\.6\.0]
-- [Nethelurgy](https://modrinth.com/mod/GQycYVs4) [0\.5\.0]
+- [Nethelurgy](https://modrinth.com/mod/GQycYVs4) [0\.5\.1]
 - [NotEnoughAnimations](https://modrinth.com/mod/MPCX6s5C) [1\.12\.4]
 - [Occultism](https://www.curseforge.com/projects/361026) [1\.157\.0]
 - [OctoLib](https://www.curseforge.com/projects/916747) [0\.5\.0\.1]
