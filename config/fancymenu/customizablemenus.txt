@@ -15,9 +15,6 @@ net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 com.example.keybindatlas.render.KeyboardScreen {
 }
 
-com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
-}
-
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
@@ -82,5 +79,8 @@ net.minecraft.client.gui.screens.achievement.StatsScreen {
 }
 
 net.minecraft.client.gui.screens.PauseScreen {
+}
+
+com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
 }
 
