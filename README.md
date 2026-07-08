@@ -131,7 +131,6 @@ Este modpack é distribuido de duas maneiras:
 - [Mouse Tweaks](https://www.curseforge.com/projects/60089) [2\.25\.1]
 - [Mystical Agradditions](https://www.curseforge.com/projects/256247) [7\.0\.12]
 - [Mystical Agriculture](https://www.curseforge.com/projects/246640) [7\.0\.24]
-- [Mythic Upgrades](https://modrinth.com/mod/ERH7cFoy) [5\.0\.1]
 - [Nature's Spirit](https://www.curseforge.com/projects/1044992) [2\.2\.3\-1\.20\.1]
 - [Necronomicon](https://www.curseforge.com/projects/586157) [1\.6\.0]
 - [Nethelurgy](https://modrinth.com/mod/GQycYVs4) [0\.5\.0]
