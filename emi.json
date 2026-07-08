@@ -1,6 +1,29 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:ironfurnaces:emerald_furnace",
+    "item:ironfurnaces:crystal_furnace",
+    "item:ironfurnaces:obsidian_furnace",
+    "item:tconstruct:cobalt_ore",
+    "item:tconstruct:cobalt_ingot",
+    "item:mekanism:fluorite_gem",
+    "item:eidolon:silver_ingot",
+    "item:ironfurnaces:silver_furnace",
+    "item:ironfurnaces:copper_furnace",
+    "item:ironfurnaces:netherite_furnace",
+    {
+      "type": "item",
+      "id": "create_hypertube:hypertube_entrance",
+      "amount": 64
+    },
+    "item:born_in_chaos_v1:river_mint",
+    "item:tconstruct:steel_cluster",
+    "item:tconstruct:steel_block",
+    "item:mekanism:block_steel",
+    "item:mekanism:nugget_steel",
+    "item:tconstruct:steel_nugget",
+    "item:tconstruct:steel_ingot",
+    "item:mekanism:ingot_steel",
     "item:quark:gold_bars",
     "item:tconstruct:gold_bars",
     {
@@ -127,7 +150,6 @@
       "amount": 80
     },
     "item:mekanism:elite_control_circuit",
-    "item:mekanism:ingot_steel",
     "item:mekanism:basic_control_circuit",
     "item:mekanism:enriched_redstone",
     "#item:minecraft:coals",
@@ -161,11 +183,6 @@
       "uid": "infuse type:mekanism:diamond"
     },
     "item:mekanism:ingot_osmium",
-    {
-      "type": "item",
-      "id": "ironfurnaces:crystal_furnace",
-      "amount": 64
-    },
     "item:quark:flamerang{Damage:2}",
     "item:legendary_monsters:corrupted_soul",
     "item:legendary_monsters:knight_summoner",
@@ -207,9 +224,6 @@
     "item:fluxnetworks:flux_core",
     "item:fluxnetworks:flux_plug",
     "item:fluxnetworks:flux_point",
-    "item:ironfurnaces:netherite_furnace",
-    "item:ironfurnaces:copper_furnace",
-    "item:ironfurnaces:silver_furnace",
     "item:waystones:waystone",
     {
       "type": "item",
@@ -320,6 +334,7 @@
     "disabled": []
   },
   "hidden_stacks": [
-    "item:tconstruct:gold_bars"
+    "item:tconstruct:gold_bars",
+    "item:tconstruct:steel_ingot"
   ]
 }
