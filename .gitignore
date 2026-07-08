@@ -44,3 +44,4 @@ config/*
 !config/fancymenu/
 !config/quark-common.*
 !config/drippyloadingscreen/
+!config/emi.css
