@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:tconstruct:cobalt_ingot",
     "item:ironfurnaces:emerald_furnace",
     "item:ironfurnaces:upgrade_emerald",
     "item:ironfurnaces:upgrade_obsidian",
@@ -14,7 +15,6 @@
     "item:ironfurnaces:crystal_furnace",
     "item:ironfurnaces:obsidian_furnace",
     "item:tconstruct:cobalt_ore",
-    "item:tconstruct:cobalt_ingot",
     "item:mekanism:fluorite_gem",
     "item:eidolon:silver_ingot",
     "item:ironfurnaces:silver_furnace",
