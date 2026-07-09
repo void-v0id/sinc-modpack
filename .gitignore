@@ -28,7 +28,7 @@ mods/.index/
 resourcepacks/.index/
 
 # Configurações do cliente (player-specific)
-options.txt
+./options.txt
 *.properties
 !server.properties
 
