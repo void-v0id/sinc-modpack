@@ -44,3 +44,4 @@ config/*
 !config/quark-common.*
 !config/drippyloadingscreen/
 !config/emi.css
+!config/occultism-client.toml
