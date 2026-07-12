@@ -84,3 +84,6 @@ net.minecraft.client.gui.screens.PauseScreen {
 com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
