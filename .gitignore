@@ -28,7 +28,7 @@ mods/.index/
 resourcepacks/.index/
 
 # Configurações do cliente (player-specific)
-./options.txt
+options.txt
 *.properties
 !server.properties
 
@@ -41,7 +41,9 @@ usernamecache.json
 # Config: ignore tudo, mas whitelist o necessário
 config/*
 !config/fancymenu/
+!config/fancymenu/**
 !config/quark-common.*
 !config/drippyloadingscreen/
+!config/drippyloadingscreen/**
 !config/emi.css
 !config/occultism-client.toml
