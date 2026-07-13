@@ -81,9 +81,12 @@ net.minecraft.client.gui.screens.achievement.StatsScreen {
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
 com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
 }
 
-net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+net.minecraft.client.gui.screens.EditServerScreen {
 }
 

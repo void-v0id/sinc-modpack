@@ -45,3 +45,8 @@ config/*
 !config/drippyloadingscreen/
 !config/emi.css
 !config/occultism-client.toml
+
+// VS Code
+
+.vscode/probe.code-snippets
+.probe
