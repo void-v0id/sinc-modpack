@@ -20,6 +20,7 @@ texturepacks/
 xaero/
 XaeroWaypoints_*/
 .qmenu_*
+./mods/probejs-*-forge.jar
 
 # Logs e cache
 *.log
