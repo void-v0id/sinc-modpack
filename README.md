@@ -11,6 +11,8 @@ Modpack customizado para o servidor de Minecraft S.I.N.C. (Sigla Inventada Nada 
 - 4GB+ de RAM recomendados
 
 ## Instalação
+(Como o modpack ainda se encontra em desenvolvimento, as releases ainda não foram disponibilizadas. Caso você queira testar, você pode clonar o repositório ou fazer o download do código bruto.)
+
 Este modpack é distribuido de duas maneiras:
 * Archive .zip com os arquivos brutos ('bruto')
 * Archive .zip em formato CurseForge para instalação automática ('curseforge')
