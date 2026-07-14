@@ -37,6 +37,7 @@ checkbox_states.json
 patchouli_data.json
 usercache.json
 usernamecache.json
+emi.json
 
 # Config: ignore tudo, mas whitelist o necessário
 config/*
