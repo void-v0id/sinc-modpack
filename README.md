@@ -2,7 +2,7 @@
 
 ---
 
-Modpack customizado para o servidor de Minecraft S.I.N.C. (Sigla Inventada Nada Criativa) 2.5.
+### Modpack customizado para o servidor de Minecraft S.I.N.C. (Sigla Inventada Nada Criativa) 2.5.
 
 ## Requisitos
 - Minecraft 1.20.1
@@ -28,7 +28,7 @@ Este modpack é distribuido de duas maneiras:
 2. Procure pela opção de 'Import' em seu launcher de preferência (Prism Launcher/ATLauncher têm maiores chances de sucesso)
 3. Execute a instância que foi instalada para você
 
-## Mods inclusos
+## Mods inclusos (Pode mudar com o tempo)
 
 - [AE2WTLib](https://www.curseforge.com/projects/459929) [15\.3\.3\-forge]
 - [AI\-Improvements](https://www.curseforge.com/projects/233019) [0\.5\.2]
