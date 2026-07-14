@@ -48,3 +48,4 @@ config/*
 !config/drippyloadingscreen/**
 !config/emi.css
 !config/occultism-client.toml
+!config/sparsestructures.json5

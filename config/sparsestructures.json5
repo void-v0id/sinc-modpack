@@ -1,0 +1,10 @@
+{
+  "spreadFactor": 1,
+  "idBasedSalt": true,
+  "customSpreadFactors": [
+    {
+      "structure": "minecraft:villages",
+      "factor": 6
+    }
+  ]
+}
