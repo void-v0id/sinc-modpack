@@ -3,7 +3,8 @@
 ServerEvents.recipes(event => {
     console.log('The recipe event has fired! (Receitas)')
 
-    // Conflitos
+    // ----CONFLITOS----
+
     event.remove({ output: 'mekanism:block_charcoal' })
     event.remove({ output: 'tconstruct:steel_ingot' })
 
@@ -36,15 +37,35 @@ ServerEvents.recipes(event => {
         Ingredient.of('create:propeller')
     )
 
+    event.custom(
+        {
+            "type": "create:mixing",
+            "ingredients": [
+                {
+                    "amount": 250,
+                    "fluidTag": "forge:milk"
+                },
+                {
+                    "tag": "forge:dusts/salt"
+                }
+            ],
+            "results": [
+                {
+                    "item": "rats:cheese"
+                }
+            ]
+        }
+    )
+
     // Remover farm de diamante.
     event.remove({ id: 'occultism:crushing/diamond_dust' })
     event.recipes.occultism.crushing(
-		'2x #forge:dusts/diamond',
-		'#forge:ores/diamond'
-	)
+        '2x #forge:dusts/diamond',
+        '#forge:ores/diamond'
+    )
 
-    event.remove({ id: 'mekanism:processing/diamond/to_deepslate_ore'})
-    event.remove({ id: 'mekanism:processing/diamond/to_ore'})
+    event.remove({ id: 'mekanism:processing/diamond/to_deepslate_ore' })
+    event.remove({ id: 'mekanism:processing/diamond/to_ore' })
 
     event.custom({
         "type": "mekanism:combining",
@@ -82,20 +103,20 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({ id: 'occultism:crushing/diamond_dust_from_gem'})
+    event.remove({ id: 'occultism:crushing/diamond_dust_from_gem' })
 
     // Remover farm de Esmeralda.
 
-    event.remove({ id: 'occultism:crushing/emerald_dust_from_gem'})
-    event.remove({ id: 'occultism:crushing/emerald_dust'})
+    event.remove({ id: 'occultism:crushing/emerald_dust_from_gem' })
+    event.remove({ id: 'occultism:crushing/emerald_dust' })
 
     event.recipes.occultism.crushing(
-		'2x #forge:dusts/emerald',
-		'#forge:ores/emerald'
-	)
+        '2x #forge:dusts/emerald',
+        '#forge:ores/emerald'
+    )
 
-    event.remove({ id: 'mekanism:processing/emerald/to_deepslate_ore'})
-    event.remove({ id: 'mekanism:processing/emerald/to_ore'})
+    event.remove({ id: 'mekanism:processing/emerald/to_deepslate_ore' })
+    event.remove({ id: 'mekanism:processing/emerald/to_ore' })
 
     event.custom({
         "type": "mekanism:combining",
@@ -133,6 +154,8 @@ ServerEvents.recipes(event => {
         }
     })
 
+    // ----BALANCEAMENTO----
+
 
     // Essências mais difíceis :serious:
     const essences = [
@@ -152,14 +175,14 @@ ServerEvents.recipes(event => {
                 'EIE',
                 'EEE'
             ], {
-                E: essences[i],
-                I: '#mysticalagriculture:infusion_crystals'
-            }
+            E: essences[i],
+            I: '#mysticalagriculture:infusion_crystals'
+        }
         )
     }
-    
+
     // Alternator +difícil
-    
+
     event.remove({ output: 'createaddition:alternator' });
     event.custom(
         {
@@ -200,7 +223,7 @@ ServerEvents.recipes(event => {
     // Iron Furnaces
     // Factory Augment requer Mekanism
 
-    event.remove({ output: "ironfurnaces:augment_factory"});
+    event.remove({ output: "ironfurnaces:augment_factory" });
     event.shaped(
         Item.of("ironfurnaces:augment_factory"),
         [
@@ -208,15 +231,15 @@ ServerEvents.recipes(event => {
             'RCR',
             'IBI'
         ], {
-            I: 'createdeco:industrial_iron_sheet',
-            B: 'mekanism:basic_control_circuit',
-            R: 'minecraft:redstone',
-            C: 'mekanism:basic_energy_cube'
-        }
+        I: 'createdeco:industrial_iron_sheet',
+        B: 'mekanism:basic_control_circuit',
+        R: 'minecraft:redstone',
+        C: 'mekanism:basic_energy_cube'
+    }
     )
 
     // Generator Augment requer Mekanism
-    event.remove({ output: 'ironfurnaces:augment_generator'})
+    event.remove({ output: 'ironfurnaces:augment_generator' })
     event.shaped(
         Item.of('ironfurnaces:augment_generator'),
         [
@@ -234,7 +257,7 @@ ServerEvents.recipes(event => {
     )
 
     // Speed Augment +doce
-    event.remove({ output: 'ironfurnaces:augment_speed'})
+    event.remove({ output: 'ironfurnaces:augment_speed' })
     event.shaped(
         Item.of('ironfurnaces:augment_speed'),
         [
@@ -242,11 +265,11 @@ ServerEvents.recipes(event => {
             'CSC',
             'IHI'
         ], {
-            I: 'minecraft:iron_ingot',
-            C: 'supplementaries:candy',
-            S: 'supplementaries:sugar_cube',
-            H: 'minecraft:honeycomb'
-        }
+        I: 'minecraft:iron_ingot',
+        C: 'supplementaries:candy',
+        S: 'supplementaries:sugar_cube',
+        H: 'minecraft:honeycomb'
+    }
     )
 
 
@@ -254,7 +277,7 @@ ServerEvents.recipes(event => {
     // Receitas propostas
 
     // Wind Generator
-    event.remove({ output: 'mekanismgenerators:wind_generator'})
+    event.remove({ output: 'mekanismgenerators:wind_generator' })
     event.shaped(
         Item.of('mekanismgenerators:wind_generator'),
         [
@@ -262,16 +285,16 @@ ServerEvents.recipes(event => {
             'SES',
             'ICI'
         ], {
-            P: 'create:propeller',
-            S: 'mekanism:ingot_steel',
-            E: 'mekanism:elite_control_circuit',
-            I: 'createdeco:industrial_iron_ingot',
-            C: 'mekanism:basic_energy_cube'
-        }
+        P: 'create:propeller',
+        S: 'mekanism:ingot_steel',
+        E: 'mekanism:elite_control_circuit',
+        I: 'createdeco:industrial_iron_ingot',
+        C: 'mekanism:basic_energy_cube'
+    }
     )
 
     // Advanced Solar Generator
-    event.remove({ output: 'mekanismgenerators:advanced_solar_generator'})
+    event.remove({ output: 'mekanismgenerators:advanced_solar_generator' })
     event.shaped(
         Item.of('mekanismgenerators:advanced_solar_generator'),
         [
@@ -279,16 +302,16 @@ ServerEvents.recipes(event => {
             'GEG',
             'ICI'
         ], {
-            G: 'mekanismgenerators:solar_generator',
-            S: 'mekanism:steel_casing',
-            E: 'mekanism:elite_universal_cable',
-            I: 'createdeco:industrial_iron_ingot',
-            C: 'mekanism:basic_energy_cube'
-        }
+        G: 'mekanismgenerators:solar_generator',
+        S: 'mekanism:steel_casing',
+        E: 'mekanism:elite_universal_cable',
+        I: 'createdeco:industrial_iron_ingot',
+        C: 'mekanism:basic_energy_cube'
+    }
     )
 
     // Solar Generator
-    event.remove({ output: 'mekanismgenerators:solar_generator'})
+    event.remove({ output: 'mekanismgenerators:solar_generator' })
     event.shaped(
         Item.of('mekanismgenerators:solar_generator'),
         [
@@ -296,12 +319,12 @@ ServerEvents.recipes(event => {
             'ASA',
             'ITI'
         ], {
-            P: 'mekanismgenerators:solar_panel',
-            A: 'mekanism:alloy_infused',
-            S: 'mekanism:ingot_steel',
-            I: 'createdeco:industrial_iron_ingot',
-            T: 'mekanism:energy_tablet'
-        }
+        P: 'mekanismgenerators:solar_panel',
+        A: 'mekanism:alloy_infused',
+        S: 'mekanism:ingot_steel',
+        I: 'createdeco:industrial_iron_ingot',
+        T: 'mekanism:energy_tablet'
+    }
 
     )
 
@@ -351,7 +374,7 @@ ServerEvents.recipes(event => {
         "show_notification": false
     })
 
-    // CUSTOM!! :yt_shock:
+    // ----CUSTOM!! :yt_shock:----
     // Tecnicamente todas as receitas aqui são custom mas a gente não fala sobre isso.
 
     event.custom({
